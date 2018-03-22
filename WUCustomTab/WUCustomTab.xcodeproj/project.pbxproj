@@ -15,6 +15,10 @@
 		94B83BA120638D07003A8410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BA020638D07003A8410 /* main.m */; };
 		94B83BAB20638D07003A8410 /* WUCustomTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BAA20638D07003A8410 /* WUCustomTabTests.m */; };
 		94B83BB620638D07003A8410 /* WUCustomTabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BB520638D07003A8410 /* WUCustomTabUITests.m */; };
+		94B83BCB2063900B003A8410 /* WUOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BCA2063900B003A8410 /* WUOneController.m */; };
+		94B83BD1206391BE003A8410 /* WUTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BD0206391BE003A8410 /* WUTwoController.m */; };
+		94B83BD4206391E0003A8410 /* WUThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BD3206391E0003A8410 /* WUThreeController.m */; };
+		94B83BD7206391F2003A8410 /* WUFourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BD6206391F2003A8410 /* WUFourController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		94B83BB120638D07003A8410 /* WUCustomTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WUCustomTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B83BB520638D07003A8410 /* WUCustomTabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUCustomTabUITests.m; sourceTree = "<group>"; };
 		94B83BB720638D07003A8410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B83BC92063900B003A8410 /* WUOneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUOneController.h; sourceTree = "<group>"; };
+		94B83BCA2063900B003A8410 /* WUOneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUOneController.m; sourceTree = "<group>"; };
+		94B83BCF206391BE003A8410 /* WUTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUTwoController.h; sourceTree = "<group>"; };
+		94B83BD0206391BE003A8410 /* WUTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUTwoController.m; sourceTree = "<group>"; };
+		94B83BD2206391E0003A8410 /* WUThreeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUThreeController.h; sourceTree = "<group>"; };
+		94B83BD3206391E0003A8410 /* WUThreeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUThreeController.m; sourceTree = "<group>"; };
+		94B83BD5206391F2003A8410 /* WUFourController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUFourController.h; sourceTree = "<group>"; };
+		94B83BD6206391F2003A8410 /* WUFourController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUFourController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				94B83B9220638D07003A8410 /* AppDelegate.m */,
 				94B83B9420638D07003A8410 /* ViewController.h */,
 				94B83B9520638D07003A8410 /* ViewController.m */,
+				94B83BC92063900B003A8410 /* WUOneController.h */,
+				94B83BCA2063900B003A8410 /* WUOneController.m */,
+				94B83BCF206391BE003A8410 /* WUTwoController.h */,
+				94B83BD0206391BE003A8410 /* WUTwoController.m */,
+				94B83BD2206391E0003A8410 /* WUThreeController.h */,
+				94B83BD3206391E0003A8410 /* WUThreeController.m */,
+				94B83BD5206391F2003A8410 /* WUFourController.h */,
+				94B83BD6206391F2003A8410 /* WUFourController.m */,
 				94B83B9720638D07003A8410 /* Main.storyboard */,
 				94B83B9A20638D07003A8410 /* Assets.xcassets */,
 				94B83B9C20638D07003A8410 /* LaunchScreen.storyboard */,
@@ -265,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B83BD7206391F2003A8410 /* WUFourController.m in Sources */,
+				94B83BD4206391E0003A8410 /* WUThreeController.m in Sources */,
 				94B83B9620638D07003A8410 /* ViewController.m in Sources */,
+				94B83BD1206391BE003A8410 /* WUTwoController.m in Sources */,
 				94B83BA120638D07003A8410 /* main.m in Sources */,
+				94B83BCB2063900B003A8410 /* WUOneController.m in Sources */,
 				94B83B9320638D07003A8410 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
