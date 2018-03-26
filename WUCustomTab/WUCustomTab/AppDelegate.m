@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "WUOneController.h"
+#import "WUTwoController.h"
+#import "WUThreeController.h"
+#import "MyTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //设置根控制器
+//    UIWindow *window = [UIApplication sharedApplication].delegate.window;
+//    window.rootViewController = [[WUOneController alloc]init];
+//    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:[[WUOneController alloc]init]];
+//    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:[[WUTwoController alloc]init]];
+//    nav2.tabBarItem.title = @"kisdhciua";
+//    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:[[WUThreeController alloc]init]];
+//
+//    UITabBarController *tabVC = [[UITabBarController alloc]init];
+//    tabVC.viewControllers = @[nav1,nav2,nav3];
+//    self.window.rootViewController = tabVC;
+    
+    MyTabBarController *tabBarController =  [[MyTabBarController alloc]init];
+    tabBarController.tabBarSelectIndex = 0;
+    self.window.rootViewController = tabBarController;
     return YES;
 }
 

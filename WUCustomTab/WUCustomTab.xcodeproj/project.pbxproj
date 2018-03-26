@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94351D132068F423005CB8A8 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94351D122068F423005CB8A8 /* MyTabBarController.m */; };
+		94351D162068F52D005CB8A8 /* MyTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94351D152068F52D005CB8A8 /* MyTabBarButton.m */; };
 		94B83B9320638D07003A8410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83B9220638D07003A8410 /* AppDelegate.m */; };
-		94B83B9620638D07003A8410 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83B9520638D07003A8410 /* ViewController.m */; };
 		94B83B9920638D07003A8410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B83B9720638D07003A8410 /* Main.storyboard */; };
 		94B83B9B20638D07003A8410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B83B9A20638D07003A8410 /* Assets.xcassets */; };
 		94B83B9E20638D07003A8410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B83B9C20638D07003A8410 /* LaunchScreen.storyboard */; };
@@ -18,7 +19,6 @@
 		94B83BCB2063900B003A8410 /* WUOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BCA2063900B003A8410 /* WUOneController.m */; };
 		94B83BD1206391BE003A8410 /* WUTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BD0206391BE003A8410 /* WUTwoController.m */; };
 		94B83BD4206391E0003A8410 /* WUThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BD3206391E0003A8410 /* WUThreeController.m */; };
-		94B83BD7206391F2003A8410 /* WUFourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B83BD6206391F2003A8410 /* WUFourController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94351D112068F423005CB8A8 /* MyTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		94351D122068F423005CB8A8 /* MyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		94351D142068F52D005CB8A8 /* MyTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarButton.h; sourceTree = "<group>"; };
+		94351D152068F52D005CB8A8 /* MyTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarButton.m; sourceTree = "<group>"; };
 		94B83B8E20638D07003A8410 /* WUCustomTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WUCustomTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B83B9120638D07003A8410 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94B83B9220638D07003A8410 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		94B83B9420638D07003A8410 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		94B83B9520638D07003A8410 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94B83B9820638D07003A8410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94B83B9A20638D07003A8410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94B83B9D20638D07003A8410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,8 +63,6 @@
 		94B83BD0206391BE003A8410 /* WUTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUTwoController.m; sourceTree = "<group>"; };
 		94B83BD2206391E0003A8410 /* WUThreeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUThreeController.h; sourceTree = "<group>"; };
 		94B83BD3206391E0003A8410 /* WUThreeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUThreeController.m; sourceTree = "<group>"; };
-		94B83BD5206391F2003A8410 /* WUFourController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUFourController.h; sourceTree = "<group>"; };
-		94B83BD6206391F2003A8410 /* WUFourController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUFourController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,21 +115,21 @@
 			children = (
 				94B83B9120638D07003A8410 /* AppDelegate.h */,
 				94B83B9220638D07003A8410 /* AppDelegate.m */,
-				94B83B9420638D07003A8410 /* ViewController.h */,
-				94B83B9520638D07003A8410 /* ViewController.m */,
 				94B83BC92063900B003A8410 /* WUOneController.h */,
 				94B83BCA2063900B003A8410 /* WUOneController.m */,
 				94B83BCF206391BE003A8410 /* WUTwoController.h */,
 				94B83BD0206391BE003A8410 /* WUTwoController.m */,
 				94B83BD2206391E0003A8410 /* WUThreeController.h */,
 				94B83BD3206391E0003A8410 /* WUThreeController.m */,
-				94B83BD5206391F2003A8410 /* WUFourController.h */,
-				94B83BD6206391F2003A8410 /* WUFourController.m */,
 				94B83B9720638D07003A8410 /* Main.storyboard */,
 				94B83B9A20638D07003A8410 /* Assets.xcassets */,
 				94B83B9C20638D07003A8410 /* LaunchScreen.storyboard */,
 				94B83B9F20638D07003A8410 /* Info.plist */,
 				94B83BA020638D07003A8410 /* main.m */,
+				94351D112068F423005CB8A8 /* MyTabBarController.h */,
+				94351D122068F423005CB8A8 /* MyTabBarController.m */,
+				94351D142068F52D005CB8A8 /* MyTabBarButton.h */,
+				94351D152068F52D005CB8A8 /* MyTabBarButton.m */,
 			);
 			path = WUCustomTab;
 			sourceTree = "<group>";
@@ -285,13 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B83BD7206391F2003A8410 /* WUFourController.m in Sources */,
 				94B83BD4206391E0003A8410 /* WUThreeController.m in Sources */,
-				94B83B9620638D07003A8410 /* ViewController.m in Sources */,
+				94351D162068F52D005CB8A8 /* MyTabBarButton.m in Sources */,
 				94B83BD1206391BE003A8410 /* WUTwoController.m in Sources */,
 				94B83BA120638D07003A8410 /* main.m in Sources */,
 				94B83BCB2063900B003A8410 /* WUOneController.m in Sources */,
 				94B83B9320638D07003A8410 /* AppDelegate.m in Sources */,
+				94351D132068F423005CB8A8 /* MyTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
